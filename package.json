@@ -1,0 +1,15 @@
+{
+  "name": "deal-video-manage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:videos": "node generate-videos.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "p-limit": "^6.2.0",
+    "playwright": "^1.53.2"
+  },
+  "packageManager": "pnpm@8.15.0+sha512.ea45517d5285d123eac02c3793505fa1fd6da90a2fc60d1e8d9e0c1e9292886ecfaff513f062b9d1cc8021bb8615033b1ac5bea3b2ee3fc165a6d7034bbe6b03"
+}
